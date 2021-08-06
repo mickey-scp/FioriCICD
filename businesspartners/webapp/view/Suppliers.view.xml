@@ -4,7 +4,7 @@
 			<pages>
 				<Page id="page" title="Suppliers Info">
 					<content>
-					    <List noDataText="Drop list items here" id="list0" items="{/BusinessPartnerSet}">
+					    <List noDataText="Drop list items here for testing" id="list0" items="{/BusinessPartnerSet}">
 					        <items>
 					            <StandardListItem type="Navigation" title="{CompanyName}" description="{WebAddress}" icon="sap-icon://picture" id="item0"/>
 					        </items>
