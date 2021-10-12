@@ -9,7 +9,7 @@ sap.ui.define([
 
 		return Controller.extend("ns.businesspartners.controller.Suppliers", {
 			onInit: function () {
-
+                    console.log("in application");
 			}
 		});
 	});
